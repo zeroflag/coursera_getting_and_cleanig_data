@@ -1,6 +1,6 @@
 library(data.table)
 
-setwd("c:/Users/zeroflag/development/coursera/getting_and_cleanig_data")
+setwd("/path/to/dataset")
 
 completeData <- function() {
   testSet <- read.table("test/X_test.txt")
